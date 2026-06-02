@@ -1,4 +1,21 @@
-/* Upcoming Batches Section */
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.logo span{
+    font-size:30px;
+    font-weight:bold;
+    color:#2196f3;
+}/* Upcoming Batches Section */
 .upcoming-batches {
   background: #f4f4f4;
   padding: 60px 20px;
@@ -101,7 +118,8 @@
     margin: 10px auto;
     display: block;
   }
-}/* Next Suggestion Section */
+}
+/* Next Suggestion Section */
 .next-suggestion {
   background: #ffffff;
   padding: 60px 20px;
@@ -551,12 +569,30 @@ body{
 }
 
 /* BODY */
+#courses,
+.contact-section,
+.gallery,
+.upcoming-batches,
+.success-stories,
+.next-suggestion{
 
+    background:
+    linear-gradient(
+        rgba(17, 10, 10, 0.85),
+        rgba(255,255,255,0.85)
+    ),
+    url("https://img.freepik.com/premium-photo/group-happy-indian-school-students-smiling-camera-white-background_979520-48566.jpg?w=2000");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 body {
   margin: 0;
   padding: 0;
 
-  background: url(" https://i.pinimg.com/1200x/ea/13/32/ea13322f256a945a7bb2a444540ad038.jpg");
+  background: url("https://i.pinimg.com/1200x/52/2d/b8/522db847bd4f83eb3f88f71476d7104f.jpg");
 
   background-size: cover;       /* Fits full screen */
   background-position: center;  /* Center image */
@@ -927,3 +963,34 @@ footer{
   }
 
 }
+css
+#enroll-form{
+    width: 400px;
+    margin: 20px auto;
+}
+
+#enroll-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#enroll-form input,
+#enroll-form select,
+#enroll-form textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#enroll-form button{
+    background: orange;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

@@ -6,6 +6,7 @@
 
 <body>
   
+  
  <section class="hero" id="home">
 <marquee
 scrollamount="20"
@@ -14,8 +15,7 @@ style="
 font-size:30px;
 color:blue;
 
-font-weight:bold;
-">
+font-weight:bold;">
 
 Your Trusted Partner for NEET & JEE Success — Online & Offline Coaching by Experts
 
@@ -53,8 +53,11 @@ Your Trusted Partner for NEET & JEE Success — Online & Offline Coaching by Exp
 <nav>
 
     <!-- LOGO -->
-    <div class="logo">Ganesh Classes</div>
+   <div class="logo">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1VIkyI-PNjp072F_lRy5gFk5XCtvFQtfEZA&s" alt="Ganesh Logo">
 
+    <span>Ganesh_Classes</span>
+</div>
     <!-- MENU -->
     <ul class="menu">
 
@@ -73,10 +76,7 @@ Your Trusted Partner for NEET & JEE Success — Online & Offline Coaching by Exp
 
         <li><a href="#gallery">Gallery</a></li>
 
-        <li><a href="#login">Login</a></li>
-
-        <li><a href="#" onclick="logout()">Logout</a></li>
-
+        
     </ul>
 
 </nav>
@@ -229,28 +229,55 @@ Your Trusted Partner for NEET & JEE Success — Online & Offline Coaching by Exp
       </div>
 
       <!-- RIGHT SIDE -->
+<section class="contact-section">
 
-      <div class="contact-form">
+<div id="enroll-form">
 
-        <form>
+<form>
 
-          <input type="text" placeholder="Your Name" required>
+<input type="text" placeholder="Your Name" required>
 
-          <input type="email" placeholder="Your Email" required>
+<input type="email" placeholder="Your Email" required>
 
-          <input type="tel" placeholder="Phone Number" required>
+<input type="tel" placeholder="Phone Number" required>
 
-          <textarea placeholder="Your Message"></textarea>
+<select required>
+    <option>Select Class</option>
+    <option>Class 6</option>
+    <option>Class 7</option>
+    <option>Class 8</option>
+    <option>Class 9</option>
+    <option>Class 10</option>
+    <option>Class 11</option>
+    <option>Class 12</option>
+</select>
 
-          <button type="submit">
-            Send Enquiry
-          </button>
+<select required>
+    <option>Select Board</option>
+    <option>CBSE</option>
+    <option>SSC</option>
+</select>
 
-        </form>
+<textarea placeholder="Your Message"></textarea>
 
-      </div>
+<button type="submit">Send Enquiry</button>
 
+</form>
+
+</div>
+
+
+    <!-- Left Side -->
+
+       
+        <p>
+            We provide coaching for Classes 6th to 12th,
+            CBSE & SSC Boards, IIT Foundation, NEET & JEE.
+        </p>
     </div>
+
+    <!-- Right Side -->
+    
 
     <!-- GOOGLE MAP -->
 
@@ -337,7 +364,7 @@ Your Trusted Partner for NEET & JEE Success — Online & Offline Coaching by Exp
         <div class="gallery-item">
             <img src="https://tse1.mm.bing.net/th/id/OIP.8ZBEOafeLPOtFmf_PmjdLwHaE7?pid=Api&P=0&h=180" alt="Physics Lab">
             <h3>Practical Learning</h3>
-        </div>
+        </div>';'
 
         <div class="gallery-item">
             <img src="https://tse3.mm.bing.net/th/id/OIP.Pk14yQHUdxN4pEpR3RfrUQHaFj?pid=Api&P=0&h=180" alt="Test Series">
@@ -352,23 +379,7 @@ Your Trusted Partner for NEET & JEE Success — Online & Offline Coaching by Exp
     </div>
 </section>
 
-  <!-- LOGIN -->
-
-  <section id="login">
-
-    <h1 class="title">Login</h1>
-
-    <div class="login-box">
-
-      <input type="text" placeholder="Username">
-
-      <input type="password" placeholder="Password">
-
-      <button>Login</button>
-
-    </div>
-
-  </section>
+ 
 
   <!-- FOOTER -->
 <!-- Upcoming Batches Section -->
